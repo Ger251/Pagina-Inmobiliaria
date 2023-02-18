@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!--EDITAR TODO EL HEAD-->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inmobiliaria - Jara Germán</title>
+    <link rel="icon" type="image/x-icon" href="/Img/logo-Inmobiliaria.jpg"  />
+    <link rel="stylesheet" type="text/css" href="/Css/estilos.css" />
+    <!--letra agregada-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+      />
+    <!-- Bootstrap CSS -->
+    <script
+      src="https://kit.fontawesome.com/5448f8236d.js"
+      crossorigin="anonymous"></script>
+    <meta property="og:title" content="/Img/logo-Inmobiliaria.jpg" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content=" http://www.example.com" />
+    <meta property="og:image" content=" /Img/" />
+    <meta property="og:description" content="Inmobiliaria - Jara Germán" />
+  </head>
+  <body>
+
+    <header class="header">
+      <nav class="nav">
+        <a href="#" class="logo"><img src="/Img/logo-Inmobiliaria.jpg" alt="logo"></a>
+        <button class="toogle">
+            <img class="toogle-img" src="/Img/menu.svg" alt="">
+        </button>
+        <ul class="nav-menu">
+            <li class="nav-menu-item"><a href="/index.html" class="nav-menu-link">Home</a></li>
+            <li class="nav-menu-item"><a href="/Paginas/Comprar.html" class="nav-menu-link">Comprar</a></li>
+            <li class="nav-menu-item"><a href="/Paginas/Vender.html" class="nav-menu-link">Vender</a></li>
+            <li class="nav-menu-item"><a href="/Paginas/Contacto.html" class="nav-menu-link">Contacto</a></li>
+            
+          </ul>
+      </nav>       
+    </header>
+
+    <section class="section-5">
+      <div class=" section-5-formulario">
+       
+          <div class="Cont3">
+            <div class="Noform" id="Contactenos">¿Quieres Vender? </div>
+    
+            <div class="Noform" id="Somos">
+              Completá el formulario y una oficina adherida  se pondrá en contacto con vos para continuar con el proceso
+            </div>
+          </div>
+    
+          <div class="Cont4">
+            <div class="Form-fondo">
+              <form name="contactform" method="post" action="/enviar-mail.php">
+                <div class="Form1">
+                  <div class="Form2">
+                    <label for="first_name">Nombre *</label>
+                    <input type="text" name="first_name" required />
+    
+                    <label for="last_name">Apellido *</label>
+                    <input type="text" name="last_name" required />
+                  </div>
+    
+                  <div class="Form2">
+                    <label for="email">E-mail *:</label>
+                    <input type="text" name="email" required />
+    
+                    <label for="telephone">Telefono: *</label>
+                    <input type="text" name="telephone" required />
+                  </div>
+                </div>
+    
+                <div class="Form3">
+                  <label for="message">Mensaje *:</label> <br />
+                  <textarea name="message" required></textarea> <br />
+    
+                  <input type="submit" value="Enviar" class="btn-block" />
+                </div>
+              </form>
+            </div>
+          </div>
+       </div>
+      <div class="section-5-foto" ><img src="/Img/casa2.jpg" alt="">
+      </div>
+    </section>
+
+    <footer>
+      
+      <div class="Legales">
+        <div class="LegalesSn">
+          Jara German - Todos los derechos reservados 2023 -
+          <span><a
+              href="https://www.linkedin.com/in/german-jara-6a6302178/"
+              target="_blank">Powered: Jara Germán César</a></span>
+        </div>
+      </div>
+</footer>
+
+<script src="/Js/scripts.js"></script>
+    </body>
+</html>
